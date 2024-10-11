@@ -17,9 +17,9 @@ This batch script allows you to merge a set of `.jpg` images in numerical order 
 
 ### 2. **Windows OS**
 - This script is designed to work on Windows-based systems using batch commands (`.bat`).
-- 
+
 ### 3. **Bulk Rename Utility (optional)**
-- If you find it difficult to rename your files one by one, just use this freeware software
+- If you find it difficult to rename your files one by one, just use this software
 - [Download here](https://www.bulkrenameutility.co.uk/).
   
 
@@ -64,10 +64,6 @@ This batch script allows you to merge a set of `.jpg` images in numerical order 
 - **Image Naming**: Ensure the images are named properly in numerical order, or the script may not process them correctly.
 - **Batch Script Not Running**: Ensure you have proper permissions to run the script and that the script and images are in the same directory.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ---
 
 ## Example Usage Tutorial
@@ -81,7 +77,7 @@ Let’s say you have 100 images named from `001.jpg` to `100.jpg`, and you want 
    - Make sure the images are named in a numeric sequence (e.g., `001.jpg`, `002.jpg`, ..., `100.jpg`).
 
 2. **Step 2: Place the Batch Script**
-   - Place the `MERGEnew.bat` file in the same folder where your images are located.
+   - Place the `mergefile.bat` file in the same folder where your images are located.
 
 3. **Step 3: Run the Script**
    - Double-click the `mergefile.bat` file.
