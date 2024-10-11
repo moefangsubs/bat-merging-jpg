@@ -87,7 +87,3 @@ Let’s say you have 100 images named from `001.jpg` to `100.jpg`, and you want 
 
 5. **Step 5: Clean-Up**
    - The script will delete the original images after merging. If you want to keep the original images, remove or comment out the `del` commands in the script.
-
----
-
-This guide should cover everything necessary to install, run, and modify the batch script for merging `.jpg` images. Let me know if you need any further assistance or clarification!
