@@ -26,17 +26,17 @@ This batch script allows you to merge a set of `.jpg` images in numerical order 
    - During installation, make sure the option "Add application directory to your system path" is checked. This will allow you to use ImageMagick commands directly from the command line.
 
 2. **Download the Batch Script**
-   - Download or create the batch script (`MERGEnew.bat`) and place it in the directory containing your `.jpg` images.
+   - Download or create the batch script (`mergefile.bat`) and place it in the directory containing your `.jpg` images.
    - Ensure that your `.jpg` images are named numerically (e.g., 001.jpg, 002.jpg, 003.jpg, etc.).
 
 ## Usage
 
 ### Step 1: Place Your Images in the Same Directory
-- Ensure that your `.jpg` images are in the same folder as the `MERGEnew.bat` file.
+- Ensure that your `.jpg` images are in the same folder as the `mergefile.bat` file.
 - The script assumes the images are named numerically (e.g., `001.jpg`, `002.jpg`, `003.jpg`, etc.).
 
 ### Step 2: Run the Batch Script
-1. Double-click the `MERGEnew.bat` file to start the merging process.
+1. Double-click the `mergefile.bat` file to start the merging process.
 2. The script will automatically:
    - Merge every 50 `.jpg` images into a single file.
    - Name the merged result as `x1.jpg`, `x2.jpg`, etc.
@@ -79,7 +79,7 @@ Let’s say you have 100 images named from `001.jpg` to `100.jpg`, and you want 
    - Place the `MERGEnew.bat` file in the same folder where your images are located.
 
 3. **Step 3: Run the Script**
-   - Double-click the `MERGEnew.bat` file.
+   - Double-click the `mergefile.bat` file.
    - The script will merge every 50 images and create two files: `x1.jpg` (containing images 001-050) and `x2.jpg` (containing images 051-100).
 
 4. **Step 4: Check the Output**
